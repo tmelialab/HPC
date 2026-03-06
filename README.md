@@ -7,27 +7,19 @@ Secara umum, HPC berguna untuk mempercepat penemuan ilmiah, memodelkan simulasi 
 
 ## Requirements 
 
-1. Akun aktif ELSA BRIN, daftar melalui halaman berikut 
-```bash
-https://elsa.brin.go.id
-```
+1. Akun aktif ELSA BRIN, daftar melalui halaman berikut [https://elsa.brin.go.id](https://elsa.brin.go.id)
 2. Laptop / Komputer yang memakai Windows ataupun Linux
 3. Internet
 4. Pemahaman dalam menggunakan SSH
 
 ## Daftar Akun ELSA BRIN
-1. Pada link diatas, arahkan ke bagian masuk. atau ke:
-```bash
-https://elsa.brin.go.id/akun
-```
+1. Pada link diatas, arahkan ke bagian masuk. atau ke: [https://elsa.brin.go.id/akun](https://elsa.brin.go.id/akun)
 2. Daftarkan akun kamu dengan menyediakan Nama Lengkap, Alamat Email, dan Identitas diri
 3. Setelah daftar, masuk ke akun ELSA BRIN untuk melakukan pengajuan layanan BRIN
 
 ## Daftar Layanan HPC Mahameru untuk Bioinformatika
 
-```bash
-https://elsa.brin.go.id/layanan/index/%20HPC%20untuk%20%20Bioinformatika%20/6393
-```
+[https://elsa.brin.go.id/layanan/index/%20HPC%20untuk%20%20Bioinformatika%20/6393](https://elsa.brin.go.id/layanan/index/%20HPC%20untuk%20%20Bioinformatika%20/6393)
 
 Pada link diatas, mohon dibaca terlebih dahulu standar pelayanan yang ada. Setelah dibaca, mohon tekan tombol 'AJUKAN LAYANAN'. ada beberapa hal yang harus kamu isi, diantaranya adalah:
 
