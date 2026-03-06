@@ -193,8 +193,6 @@ Untuk pekerjaan komputasi yang memerlukan waktu lebih lama dari partisi short.
 - **Nodes**: 22 nodes (trembesi51-72).
 - **Cocok untuk**: Simulasi, analisis bioinformatika skala menengah, pembuatan database.
 
----
-**Tips Praktis**: Selalu gunakan partisi yang sesuai dengan estimasi waktu kerja kamu. Jika pekerjaan kamu diperkirakan selesai dalam beberapa jam, gunakan partisi `short` agar job kamu lebih cepat diproses oleh scheduler dibandingkan mengantri di partisi `medium-small`.
 
 ## Catatan Penting
 
