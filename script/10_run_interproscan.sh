@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=ipr_annot
+#SBATCH --job-name=10_ipr_annot
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
@@ -13,9 +13,9 @@ set -euo pipefail
 # USER SETTINGS
 ############################################
 
-IPR=/mgpfs/home/tishalia/tool/interproscan-5.75-106.0
-INPUT=/mgpfs/home/tishalia/assembly/annotation_braker2/augustus.hints.aa.noStop
-OUTDIR=/mgpfs/home/tishalia/annotation/interproscan
+IPR=/mgpfs/home/damedihardjo/acacia_project/tools/interproscan-5.75-106.0
+INPUT=/mgpfs/home/damedihardjo/acacia_project/annotation/combine/braker.aa
+OUTDIR=/mgpfs/home/damedihardjo/acacia_project/annotation/interprot
 PREFIX=augustus.hints.aa
 CPUS=${SLURM_CPUS_PER_TASK:-16}
 
