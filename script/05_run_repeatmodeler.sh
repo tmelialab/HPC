@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=02_repeatmodeler
+#SBATCH --job-name=05_repeatmodeler
 #SBATCH --output=repeatmodeler_%j.log
 #SBATCH --error=repeatmodeler_%j.err
 #SBATCH --nodes=1
@@ -8,7 +8,9 @@
 #SBATCH --mem=128G
 #SBATCH --time=24:00:00          # Max 24 jam (HPC limit)
 
-source ~/miniconda3/etc/profile.d/conda.sh
+set -euo pipefail
+
+source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate repeats
 
 echo "--- Mulai/Resume RepeatModeler ---"
