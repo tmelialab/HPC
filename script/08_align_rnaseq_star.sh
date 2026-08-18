@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=04a_star_align
+#SBATCH --job-name=08_star_align
 #SBATCH --output=align_%j.log
 #SBATCH --error=align_%j.err
 #SBATCH --nodes=1
@@ -8,13 +8,15 @@
 #SBATCH --mem=64G
 #SBATCH --time=24:00:00
 
-source ~/miniconda3/etc/profile.d/conda.sh
+set -euo pipefail
+
+source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate training_qc 
 
 # Set variables
 GENOME="acacia_final.fasta.masked"
 RNA_DIR="rnaseq"
-THREADS=16
+THREADS="${SLURM_CPUS_PER_TASK:-16}"
 
 # Increase open file limit for BAM sorting
 ulimit -n 65535
