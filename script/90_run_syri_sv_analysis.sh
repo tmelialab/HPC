@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=syri_plotsr
+#SBATCH --job-name=90_syri_plotsr
 #SBATCH --output=syri_plotsr_%j.log
 #SBATCH --error=syri_plotsr_%j.err
 #SBATCH --nodes=1
@@ -15,7 +15,7 @@ echo "   SyRI + Visualisasi Perbandingan Genome"
 echo "=================================================================="
 
 # Load conda dan aktifkan environment syri
-eval "$(conda shell.bash hook)"
+source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate syri_env
 
 cd /mgpfs/home/damedihardjo/combine/compare
