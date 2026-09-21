@@ -1,5 +1,11 @@
 # High Performance Computing Mahameru Guide
 
+> **Catatan (Sep 2026):** semua materi *Acacia crassicarpa* (pipeline `script/`, hasil `output/`)
+> telah dipindahkan ke repo khusus
+> **[tmelialab/ACrassicarpa_nuclear_genome](https://github.com/tmelialab/ACrassicarpa_nuclear_genome)**
+> (wrap-up: polish round-5 + re-anotasi penuh, path sudah disanitasi).
+> Repo ini kini hanya berisi panduan generik HPC Mahameru.
+
 ## Apa itu High Performance Computing?
 
 High Performance Computing (HPC) atau komputasi kinerja tinggi adalah penggunaan klaster komputer, pemrosesan paralel, dan infrastruktur canggih untuk memecahkan masalah komputasi yang rumit dan menangani data dalam jumlah sangat besar dengan kecepatan tinggi.
